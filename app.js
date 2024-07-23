@@ -1,7 +1,7 @@
 const imgContainer = document.getElementById("img-container");
 
 async function getImages() {
-  const res = await fetch("");
+  const res = await fetch("https://unsplash-demo-server-1.onrender.com/");
 
   const data = await res.json();
 
